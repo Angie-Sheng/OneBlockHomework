@@ -8,7 +8,7 @@ fn main() {
     }
 
     trait GetTime {
-        fn get_time(&self) -> u32; // 返回持续的时间（单位：秒）
+        fn get_time(&self) -> u32; 
     }
 
     impl GetTime for TrafficLight {
